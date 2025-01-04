@@ -40,7 +40,7 @@ local function setup(configs)
    return {
       Normal = { fg = colors.fg, bg = colors.bg, },
       NormalFloat = { fg = colors.fg, bg = colors.bg, },
-      Comment = { fg = colors.comment, italic = configs.italic_comment, },
+      Comment = { fg = colors.comment_highlight, italic = true, bold = true },
       Constant = { fg = colors.yellow, },
       String = { fg = colors.yellow, },
       Character = { fg = colors.green, },
@@ -69,7 +69,7 @@ local function setup(configs)
       Structure = { fg = colors.yellow, },
       TypeDef = { fg = colors.yellow, },
       Special = { fg = colors.green, italic = true },
-      SpecialComment = { fg = colors.comment, italic = true, },
+      SpecialComment = { fg = colors.comment_highlight, italic = true, },
       Error = { fg = colors.bright_red, },
       Todo = { fg = colors.purple, bold = true, italic = true, },
       Underlined = { fg = colors.cyan, underline = true, },

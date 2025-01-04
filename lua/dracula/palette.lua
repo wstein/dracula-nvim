@@ -27,6 +27,7 @@ return {
    bg = "#282A36",
    fg = "#F8F8F2",
    selection = "#44475A",
+   comment_highlight = "#FF5555",
    comment = "#6272A4",
    red = "#FF5555",
    orange = "#FFB86C",
